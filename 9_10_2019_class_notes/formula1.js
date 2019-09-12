@@ -6,7 +6,7 @@
 
 var ARPA = 13;
 var GrossMargin = 20;
-
-var LTV=(ARPA* GrossMargin);
+var CCR= 2;
+var LTV=(ARPA* GrossMargin/CCR);
 
 console.log(LTV);  
