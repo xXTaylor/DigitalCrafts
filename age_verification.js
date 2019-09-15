@@ -1,58 +1,93 @@
 
 var canDrive= function(age) {
-	if(age > 16) {
-	  return true
-	} else {
-	  return false
-	}
 
+    if(age > 16) {
+       return true;
+    }
+
+    return false;
 }
 
-var canDrink= function(age) {
-	if (age > 21) {
-	  return true
-	} else {
-	  return false
-	}
+var canRentCar = function(age) {
 
+    if(age > 25) {
+      return true;
+    }
+
+    return false;
 }
 
-var canRentCar= function(age) {
-	if (age > 25) {
-	  return true
-	} else {
-	  return false
-	}
+var canPlayInBallPit = function(age) {
 
+   if(age <= 10) {
+     return true;
+   }
+
+   return false;
 }
 
-var canPlayBallInPitt= function(age) {
-	if (age > 10) {
-	  return true
-	} else {
-	  return false
-	}
 
+var canDrink = function(age) {
+
+    if(age>= 21) {
+      return true;
+    }
+
+    return false;
 }
-var sarah = 32;
-if (canDrive(sarah)){
 
-//if (canRentCar(sarah)){
-//if (PlayInBallPitt(sarah)){
 
-//console.log("Sarah can drive"; 
-//console.log("Sarah can drink");
-//console.log("Sarah can rent a car");
-//console.log("Sarah can play in the ball pit");
 
-} 
+/**
+Sarah, age 32
+Bob, age 19
+Henry, age 22
+Katie, age 9
+*/
 
-var sarah = 32;
-if (canDrink(sarah)){
+var resultArray = [];
 
-console.log("Sarah can drink");
+var testAges = function(name, age) {
+   
+   var message = "";
 
-}   
+   if(canDrive(age)) {
+      message = name + " can drive";
+   } else {
+      message = name + " cannot drive";
+   }
 
-	
+   resultArray.push(message);
 
+   if(canDrink(age)) {
+      message = name + " can drink";
+   } else {
+      message = name + " cannot drink";
+   }
+
+   resultArray.push(message);
+
+   if(canRentCar(age)) {
+      message = name + " can rent a car";
+   } else {
+      message = name + " cannot rent a car";
+   }
+
+   resultArray.push(message);
+
+   if(canPlayInBallPit(age)) {
+      message = name + " can play in ball pit";
+   } else {
+      message = name + " cannot play in ball pit";
+   }
+
+   resultArray.push(message);
+}
+
+
+testAges("Sarah", 35);
+testAges("Bob", 21);
+testAges("Henry", 17);
+testAges("Katie", 9);
+
+console.log(resultArray);
