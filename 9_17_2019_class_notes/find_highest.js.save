@@ -1,0 +1,9 @@
+var numbers = [3, 8 , 12, 1, 6, 15, 3];
+// Add all the Values in the Array and Print To Screen
+
+var final = 0;
+
+for(var i=0; i<numbers.length; i ++) {
+
+	console.log(numbers[i]);
+}
