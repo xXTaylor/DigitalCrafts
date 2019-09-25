@@ -4,9 +4,11 @@ var findAreaOfCircle = function(r) {
 
 }
 
-var getPiValue= function {
-	return 3.14;
-}
+var getPiValue= function 
+	(return 3.14;
+
+
+
 
 
 console.log(findAreaOfCircle(5));

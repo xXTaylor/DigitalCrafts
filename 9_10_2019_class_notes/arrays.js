@@ -1,4 +1,4 @@
-var myFirstArray = ("Hello", "John", 3.5, "Thor", true, false];
+var myFirstArray = ("Hello", "John", 3.5, "Thor", true, false);
 
 console.log(myFirstArray);
 
