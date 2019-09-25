@@ -111,5 +111,3 @@ var snacks = [
     return message;
  };
  console.log(vendingItem("Snickers", costAmount("Snickers"), paidAmount(["Dollar", "Dollar"])));
-
-
