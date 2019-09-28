@@ -1,0 +1,27 @@
+body {
+    background: "close-up-blank-old-concrete-wall_23-2147856094.jpg" repeat;
+    min-height: 100%;
+    background-size:100%;
+  
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+p {
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+  }
+
+h2 {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 300px;
+    border: 2px solid black;
+  }  
+
+ul.b {
+    list-style-position: inside;
+  }
