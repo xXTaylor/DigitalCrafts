@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+​
+.board {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+​
+.row {
+    display: flex;
+    justify-content: center;
+}
+​
+.tile {
+    width: 12.5vw;
+    height: 12.5vw;
+}
+​
+.row:nth-of-type(even) {
+    flex-direction: row-reverse;
+}
+.tile:nth-of-type(odd) {
+    background-color: #CB7F44;
+}
+.tile:nth-of-type(even) {
+    background-color: #FFC797;
+}

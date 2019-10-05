@@ -1,0 +1,43 @@
+body {
+    background-color: white;
+}
+
+header, .Footer {
+    background-color: lightskyblue;
+    font-size: 100px;
+    text-align: center;
+    border: 5px solid black;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    border: 5px solid black;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    border: 5px solid black;
+    background-color: lightpink;
+    width: 200px;
+}
+
+.menu ul{
+    list-style-type: none;
+}
+
+.content {
+    border: 5px solid black;
+    background-color: lightsalmon;
+    flex-grow: 1;
+}
+
+.AD {
+    border: 5px solid black;
+    background-color: lightpink;
+    width: 200px;
+}

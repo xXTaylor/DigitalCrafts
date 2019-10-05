@@ -5,7 +5,7 @@ body {
   
     font-family: 'Montserrat', sans-serif;
 
-}
+    }
 
 p {
     padding-top: 15px;
@@ -25,3 +25,5 @@ h2 {
 ul.b {
     list-style-position: inside;
   }
+
+ 
