@@ -1,0 +1,14 @@
+body {
+    background-color: lightgray;
+    align-content: center;
+}
+
+#output {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+} 

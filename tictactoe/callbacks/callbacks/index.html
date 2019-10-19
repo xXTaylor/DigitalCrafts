@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Set Interval</title>
+</head>
+<body>
+    <ul id="myList">
+
+    </ul>
+</body>
+    <script type="text/javascript">
+        var listElement = document.getElementById("myList");
+
+        var animals = ["Dog", "Cat", "Ferret", "Cow", "Moose", "Wolf", "Bear"];
+
+        var myAnimalInterval = setInterval(function(){
+
+            var animal = animals.pop();
+
+            if(animals.length> 0) { 
+                listElement.append("<li>" + animal + "/<li>");
+                } else {
+                clearInterval(myAnimalInterval);
+        }
+
+    }, 3000);
+    </script>
+</html>
